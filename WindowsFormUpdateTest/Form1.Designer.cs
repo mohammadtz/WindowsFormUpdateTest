@@ -31,6 +31,7 @@ partial class Form1
         label1 = new Label();
         textBox1 = new TextBox();
         version = new Label();
+        label2 = new Label();
         SuspendLayout();
         // 
         // label1
@@ -59,11 +60,21 @@ partial class Form1
         version.TabIndex = 2;
         version.Text = "version";
         // 
+        // label2
+        // 
+        label2.AutoSize = true;
+        label2.Location = new Point(386, 254);
+        label2.Name = "label2";
+        label2.Size = new Size(45, 15);
+        label2.TabIndex = 3;
+        label2.Text = "Persian";
+        // 
         // Form1
         // 
         AutoScaleDimensions = new SizeF(7F, 15F);
         AutoScaleMode = AutoScaleMode.Font;
         ClientSize = new Size(800, 450);
+        Controls.Add(label2);
         Controls.Add(version);
         Controls.Add(textBox1);
         Controls.Add(label1);
@@ -78,4 +89,5 @@ partial class Form1
     private Label label1;
     private TextBox textBox1;
     private Label version;
+    private Label label2;
 }
