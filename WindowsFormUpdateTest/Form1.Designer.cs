@@ -29,23 +29,32 @@ partial class Form1
     private void InitializeComponent()
     {
         label1 = new Label();
+        textBox1 = new TextBox();
         SuspendLayout();
         // 
         // label1
         // 
         label1.AutoSize = true;
         label1.Font = new Font("Segoe UI", 48F, FontStyle.Regular, GraphicsUnit.Point);
-        label1.Location = new Point(193, 165);
+        label1.Location = new Point(205, 33);
         label1.Name = "label1";
         label1.Size = new Size(393, 86);
         label1.TabIndex = 0;
         label1.Text = "Hello World!";
+        // 
+        // textBox1
+        // 
+        textBox1.Location = new Point(356, 213);
+        textBox1.Name = "textBox1";
+        textBox1.Size = new Size(100, 23);
+        textBox1.TabIndex = 1;
         // 
         // Form1
         // 
         AutoScaleDimensions = new SizeF(7F, 15F);
         AutoScaleMode = AutoScaleMode.Font;
         ClientSize = new Size(800, 450);
+        Controls.Add(textBox1);
         Controls.Add(label1);
         Name = "Form1";
         Text = "Form1";
@@ -56,4 +65,5 @@ partial class Form1
     #endregion
 
     private Label label1;
+    private TextBox textBox1;
 }
