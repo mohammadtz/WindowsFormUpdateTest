@@ -30,6 +30,7 @@ partial class Form1
     {
         label1 = new Label();
         textBox1 = new TextBox();
+        version = new Label();
         SuspendLayout();
         // 
         // label1
@@ -49,11 +50,21 @@ partial class Form1
         textBox1.Size = new Size(100, 23);
         textBox1.TabIndex = 1;
         // 
+        // version
+        // 
+        version.AutoSize = true;
+        version.Location = new Point(386, 149);
+        version.Name = "version";
+        version.Size = new Size(45, 15);
+        version.TabIndex = 2;
+        version.Text = "version";
+        // 
         // Form1
         // 
         AutoScaleDimensions = new SizeF(7F, 15F);
         AutoScaleMode = AutoScaleMode.Font;
         ClientSize = new Size(800, 450);
+        Controls.Add(version);
         Controls.Add(textBox1);
         Controls.Add(label1);
         Name = "Form1";
@@ -66,4 +77,5 @@ partial class Form1
 
     private Label label1;
     private TextBox textBox1;
+    private Label version;
 }
