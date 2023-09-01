@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="WindowsFormUpdateTest.exe" version="1.0.0.10" publicKeyToken="1715a8dd1ae80101" language="fa-IR" processorArchitecture="msil" type="win32" />
+  <description asmv2:publisher="WindowsFormUpdateTest" asmv2:product="WindowsFormUpdateTest" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Launcher.exe" parameters="" />
+  </entryPoint>
+  <co.v1:useManifestForTrust xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="17344">
+      <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>y2sD7KC0glc8d/q7ZZJu1xxSQOYxmNsE/g+mi0Zzsp8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="WindowsFormUpdateTest.deps.json" size="455">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EjO5Yr6z+U1QwX47Yrgg/yRF0wq2ornPScA+VM5ti+U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="WindowsFormUpdateTest.dll" size="9664">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RHx9uJdtoEmMyP5IKPc39lXTwog0osgG1x7nwu8F2+M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="WindowsFormUpdateTest.exe" size="155584">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pWp5jON7dk6C9LlWP6ZmW34DfFLOUyC6Ccl6EeNaYx0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="WindowsFormUpdateTest.runtimeconfig.json" size="372">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DSp4MGmJyWjNc/SmtGLu8DcWOcu4eQJIAo4Sy6A1RFo=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MOHAMMADTZ\moham" issuerKeyHash="2a808b2eea79b30f7ba6391fffba2fb79349f328" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>NOcl1Ypvy+VXns5p8BmZCtLHwIh5ki5GT3m+Y7gwhwc=</DigestValue></Reference></SignedInfo><SignatureValue>HYg09/cZOSPRQLm4f5al5PWYJSapZ1wUDD7xmI8bnnb5IXJsQtR0z7IJY7HDBXM4OkhfVzaZxE1hbyi3i8hPBtH4pEnQKqf9LGlYXmvb9lE7i1p+DT1eXxXVS5UQIiMuTCrS2EhbDdi0xOa+L7fjlFgPmgV6AwcXLU0GDECJSMk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>n5mFn3Y1UWNWl+4s8tJRE1p/LyiGTH6gLXLH5v6hlVta8mk+iR3aCX5r0IGxj3aY1A2TCw/uWwVZuhzhAXop7TqL1tvg0WCQrpDfvvKmiKJl6XKB0KEAhxcYJOSjFUv/2POklEbedUX19taTBYJ1qeDeAspa2KnG4SMVyzBTCFU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="078730b863be794f462e927988c0c7d20a9919f069ce9e57e5cb6f8ad525e734" Description="" Url=""><as:assemblyIdentity name="WindowsFormUpdateTest.exe" version="1.0.0.10" publicKeyToken="1715a8dd1ae80101" language="fa-IR" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MOHAMMADTZ\moham</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>RAe4pIvsegme41w4LRqkZZqQzS3O9rCkS7rWo9FKe+c=</DigestValue></Reference></SignedInfo><SignatureValue>FrPkH9qWiIMGrEfAbBIHIV57lni2ajV+PQpBkEBKHgOVEvehHpA4lSdymDrDTD8YooSPzfPXmeUTJcl5/akWcPNnesdO3a//xQ9VHQhwshdAZ14DCedx8GQEDHowdZ/nNhV8/En2p+qIazNRGcG9wfpNOuwHwVrcyTw0DSehxd4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>n5mFn3Y1UWNWl+4s8tJRE1p/LyiGTH6gLXLH5v6hlVta8mk+iR3aCX5r0IGxj3aY1A2TCw/uWwVZuhzhAXop7TqL1tvg0WCQrpDfvvKmiKJl6XKB0KEAhxcYJOSjFUv/2POklEbedUX19taTBYJ1qeDeAspa2KnG4SMVyzBTCFU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQK7OHTPTHVIRMfbAsQPAVpzANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAATQBPAEgAQQBNAE0AQQBEAFQAWgBcAG0AbwBoAGEAbTAeFw0yMzA5MDEwODA4NDRaFw0yNDA4MzExNDA4NDRaMCsxKTAnBgNVBAMeIABNAE8ASABBAE0ATQBBAEQAVABaAFwAbQBvAGgAYQBtMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCfmYWfdjVRY1aX7izy0lETWn8vKIZMfqAtcsfm/qGVW1ryaT6JHdoJfmvQgbGPdpjUDZMLD+5bBVm6HOEBeintOovW2+DRYJCukN++8qaIomXpcoHQoQCHFxgk5KMVS//Y86SURt51RfX21pMFgnWp4N4CylrYqcbhIxXLMFMIVQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAJ0IiXKcIJYmXmKEwzAFzj7hz+TdJWy0LHL82cM9HKipDogbQorbascptpECePn6wn+C0QRMa/Pm5Yd7sAx9bsOpMfRjAog6Fpk7DZCTvqqd3IigZpLDxInQQ4G6RjgjBYyS9cPwHnL+ePE6RsZhhuRUvDa/J8Y95kbJONLznj77</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
